@@ -1,0 +1,47 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Using digg between two versions of a file appears to be a useful idea.
+It helps is avoiding manual checking.
+It helps to get to the right point of error with little time and effort.
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having access to the entire history makes us to revert back any point of time without much effort.
+We can also track the progress made.
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+PROS:
+We have flexibility.
+Commits are meaningful
+Commits seems to be less and logical
+
+CONS:
+Commits are now subjective.
+We may forget to commit.
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+In Git since we work with writing codes, its meaningful to assume that different files are related.
+On the other hand, when we are using docs it may not be a nice assumption.
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+git log:
+It gives the detail history of the commits made along with the commit messages.
+
+git diff:
+It helps us see the differences between two commits.
+git diff commit-id1 commit-id2
+also this is useful
+git diff --stat commit-id1 commit-id2
+
+6. How might using version control make you more confident to make changes that could break something?
+
+With git its easy to get back if we find our code to break.
+So, with great confidence we can go ahead experimenting without actually worrying about breaking.
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+
+I have a project going on and i find hard maintainig it.
+I would like to try using git in it and see how it improves my work.
